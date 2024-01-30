@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "38583487-E798-4112-8161-AA77BF0B05E6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D839F9D-3075-481C-9F47-710841F88ADD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchWeather()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "901B524B-AE4D-4BBD-90B2-0DCA2BEEEB29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchWeather()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D45E3C1B-DC94-4242-A85D-912E3E34501A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/DataSource/LocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "fetchWeather()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D45E3C1B-DC94-4242-A85D-912E3E34501A - 441cd748da1d0481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;) -&gt; ()) -&gt; () in _Day_Weather.LocalDataSource.fetchWeather() -&gt; Combine.Future&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/DataSource/LocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "D45E3C1B-DC94-4242-A85D-912E3E34501A - 441cd748da1d0481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;) -&gt; ()) -&gt; () in _Day_Weather.LocalDataSource.fetchWeather() -&gt; Combine.Future&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/DataSource/LocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "545">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA72041E-BB10-4857-B1C2-BD7454C3AD2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/DataSource/LocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "fetchWeather()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA72041E-BB10-4857-B1C2-BD7454C3AD2A - df3bb8e890cc2d44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Day_Weather.LocalDataSource.fetchWeather() -&gt; Combine.Future&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/DataSource/LocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "DA72041E-BB10-4857-B1C2-BD7454C3AD2A - 441cd748da1d0481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;) -&gt; ()) -&gt; () in _Day_Weather.LocalDataSource.fetchWeather() -&gt; Combine.Future&lt;_Day_Weather.WeatherResponse, Swift.Error&gt;"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/DataSource/LocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "257">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1F855A1-5AF4-41D8-9A40-C47DA15D5B1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewController/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1F855A1-5AF4-41D8-9A40-C47DA15D5B1C - cb44c6d1c7eb12c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Day_Weather.WeatherViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/Presentation/ViewController/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "C1F855A1-5AF4-41D8-9A40-C47DA15D5B1C - cb44c6d1c7eb12c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_Day_Weather.WeatherViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "5Day Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macos/Desktop/5Day%20Weather/5Day%20Weather/Presentation/ViewController/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1129">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04664794-AA3B-4B28-AAF1-9B0B9E604D5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/Components/StickyHeader/StickyHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "decrementColorAlpha(offset:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D1B6F12-BEA1-4DA7-8690-F1C8E9FF0DFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "switchToLocalDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4006E619-3131-47DC-B7CF-DFE632F5F7FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "handleWeatherFetchError(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0B7A279-104A-43D6-A52A-7402588C7762"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "handleWeatherFetchError(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F3E274-E35E-4AEC-8103-E82B7D335F28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewController/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "tableView(_:heightForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88E98D97-D6EC-4CC9-A6CD-2C413B60881C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "saveWeatherResponse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0ADD986A-0374-418B-91AE-D3EB91A05399"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewModel/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchWeather()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE3D75F1-3913-4C6B-A1E1-6EAB1FCF690B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "5Day Weather/Presentation/ViewController/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "tableView(_:heightForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
