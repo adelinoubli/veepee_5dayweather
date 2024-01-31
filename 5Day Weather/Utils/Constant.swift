@@ -38,7 +38,13 @@ enum WeatherMessages {
     static let lastUpdateTimeFormat = "Last update time: %@"
 }
 
-enum Dialog  {
+struct AlertConstants {
+    static let offlineTitle = "You went Offline"
+    static let offlineMessage = "Please make sure to have a working internet to keep using last updates"
+}
+
+enum Dialog {
     static let title = "Network error"
-    static let message = "No local data found, Please try again later"
+    static let message = "Ensure a stable internet connection to receive the latest updates."
+
 }

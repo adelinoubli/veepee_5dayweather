@@ -20,5 +20,3 @@ enum WeatherIconError: Error {
         }
     }
 }
-
-// Add more cases as needed

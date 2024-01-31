@@ -11,48 +11,66 @@ import SDWebImage
 
 class WeatherDetailViewController: UIViewController, StoryboardInstantiable {
 
+    // MARK: - Outlets
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var bgImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var feelsLikeLabel: UILabel!
+    @IBOutlet weak var horizontalStackView: UIStackView!
+    
+    // MARK: - Properties
+    
     var viewModel: WeatherDetailViewModel?
     private var cancellables = Set<AnyCancellable>()
-
-    @IBOutlet weak var horizontalStackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel?.getWeatherInfoForSelectedDay()
         setupView()
         addArrangedDetailViews()
-        [temperatureLabel, feelsLikeLabel].forEach{$0?.applyTextOutlineShadow()} 
-        scrollView.roundCorners(corners: [.topLeft, .topRight], radius: .grid(3 ))
     }
     
     override func viewDidLayoutSubviews() {
-        scrollView.roundCorners(corners: [.topLeft, .topRight], radius: .grid(3 ))
+        super.viewDidLayoutSubviews()
+        applyStyling()
     }
     
+    // MARK: - Setup
+    
     func setupView() {
-        let temperature = viewModel?.selectedWeatherInfo?.mainInfo.getFeelsLike()
+        viewModel?.getWeatherInfoForSelectedDay()
+        
+        // Display temperature
+        let temperature = viewModel?.selectedWeatherInfo?.mainInfo?.getFeelsLike()
         temperatureLabel.text = temperature
         
-        let bgName = viewModel?.selectedWeatherInfo?.getDescription()
-            .appending(ImageURLProvider.detail_background_ext) ?? ""
-        bgImageView.image = UIImage(named: bgName)
+        // Display background image based on weather description
+        if let description = viewModel?.selectedWeatherInfo?.getDescription() {
+            let bgName = description.appending(ImageURLProvider.detail_background_ext)
+            bgImageView.image = UIImage(named: bgName)
+        }
     }
 
+    // MARK: - Detail Views
+
     func addArrangedDetailViews()  {
-        if let viewModel,  !viewModel.currentForCastDetail.isEmpty {
-            viewModel.currentForCastDetail.forEach { item in
-                if let detailView = WeatherBlockView.loadFromNib() {
-                                        detailView.updateViewWith(weatherItem: item)
-                    horizontalStackView.addArrangedSubview(detailView)
-                }
+        guard let viewModel = viewModel, !viewModel.currentForCastDetail.isEmpty else {
+            return
+        }
+        
+        // Add WeatherBlockView for each detail item
+        for item in viewModel.currentForCastDetail {
+            if let detailView = WeatherBlockView.loadFromNib() {
+                detailView.updateViewWith(weatherItem: item)
+                horizontalStackView.addArrangedSubview(detailView)
             }
         }
     }
-}
-
-enum ImageLoadingError: Error {
-    case failedToLoadImage
+    
+    // MARK: - Styling
+    
+    func applyStyling() {
+        scrollView.roundCorners(corners: [.topLeft, .topRight], radius: .grid(3))
+        [temperatureLabel, feelsLikeLabel].forEach { $0?.applyTextOutlineShadow() }
+    }
 }

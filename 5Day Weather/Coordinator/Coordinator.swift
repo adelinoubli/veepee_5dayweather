@@ -16,6 +16,7 @@ protocol HomeCoordinating {
     var coordinator: HomeCoordinator? {get set}
 }
 
+//In case we have child coordinators in use
 extension Coordinator {
 
     func store(coordinator: Coordinator) {

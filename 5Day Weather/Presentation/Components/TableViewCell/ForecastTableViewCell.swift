@@ -34,7 +34,7 @@ class ForecastTableViewCell: UITableViewCell {
     func updateView(with weatherInfo: WeatherInfo) {
         let foreCastDesc = weatherInfo.getDescription()
         backgroundImage.image = UIImage(named: foreCastDesc)
-        temperatureLabel.text  = weatherInfo.mainInfo.getTemperature()
+        temperatureLabel.text  = weatherInfo.mainInfo?.getTemperature()
         dateLabel.text = weatherInfo.timestamp.getRelativeDay()
         descriptionLabel.text = weatherInfo.weather.first?.description
     }

@@ -27,9 +27,3 @@ class DefaultDataStorage: DateStorage {
         return userDefaults.value(forKey: key) as? Date
     }
 }
-
-// Example usage:
-
-
-
-

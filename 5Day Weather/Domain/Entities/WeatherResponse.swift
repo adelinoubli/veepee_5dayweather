@@ -13,7 +13,7 @@ struct WeatherResponse: Codable {
     let message: Int
     let count: Int
     let weatherList: [WeatherInfo]
-    let city: City
+    let city: City?
 
     enum CodingKeys: String, CodingKey {
         case responseCode = "cod"
@@ -27,14 +27,14 @@ struct WeatherResponse: Codable {
 
 struct WeatherInfo: Codable {
     let timestamp: Int
-    let mainInfo: Main
+    let mainInfo: Main?
     let weather: [WeatherDescription]
-    let clouds: Clouds
-    let wind: Wind
-    let visibility: Int
-    let precipitationProbability: Double
-    let sys: Sys
-    let dateTimeText: String
+    let clouds: Clouds?
+    let wind: Wind?
+    let visibility: Int?
+    let precipitationProbability: Double?
+    let sys: Sys?
+    let dateTimeText: String?
 
     enum CodingKeys: String, CodingKey {
         case timestamp = "dt"

@@ -31,14 +31,3 @@ class LocalPersistenceService {
         }
     }
 }
-
-
-//do {
-//    let encoder = JSONEncoder()
-//    encoder.outputFormatting = .prettyPrinted
-//    let jsonData = try encoder.encode(weatherData)
-//
-//    LocalJsonFileManager.saveToJsonFile(data: jsonData, fileName: "weatherData.json")
-//} catch {
-//    print("Error encoding data: \(error)")
-//}

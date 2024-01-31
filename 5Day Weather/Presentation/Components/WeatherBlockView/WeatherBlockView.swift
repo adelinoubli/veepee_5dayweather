@@ -44,7 +44,7 @@ class WeatherBlockView: UIView {
         timestamp.toDateFormattedString(format: .hourAMPM)
         self.timeLabel.text = time
 
-        self.temperatureLabel.text = weatherItem.mainInfo.getFeelsLike()
+        self.temperatureLabel.text = weatherItem.mainInfo?.getFeelsLike()
 
         guard let icon = weatherItem.weather.first?.icon else { return }
         let imageURL = ImageURLProvider.imageURL(forIconName: icon)

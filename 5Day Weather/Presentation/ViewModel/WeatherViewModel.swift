@@ -93,7 +93,7 @@ class WeatherViewModel {
     }
     
     /// Extracts an overview of the weather forecast from the received response. (  5 days  )
-    private func getForeCastOverView() {
+     func getForeCastOverView() {
         overViewResponse = weatherResponse?.weatherList
             .sorted { $0.timestamp < $1.timestamp }
             .reduce(into: [String: WeatherInfo]()) { dict, weatherInfo in
@@ -103,7 +103,8 @@ class WeatherViewModel {
                 }
             }
             .values
-            .sorted { $0.timestamp < $1.timestamp } // Ensure the final result is sorted by timestamp
+            .sorted { $0.timestamp < $1.timestamp }
+        // to ensure the final result is sorted in an ascendant order
     }
     
     func saveUpdateDate() {
