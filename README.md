@@ -2,7 +2,6 @@
 
 ## Global view
 
-![App Screenshot](media/activity_diagram.png)
 ![App Screenshot](media/global.png)
 
 
@@ -22,6 +21,10 @@ In designing and implementing the weather app, I embraced the MVVM pattern augme
 **Local JSON File Storage**
 
 To persistently store weather data fetched from the API, the app employs a straightforward approach of saving the entire API response in a local JSON file. This choice is rooted in the simplicity of our data structure and the non-sensitive nature of weather information.
+
+
+![App Screenshot](media/activity_diagram.png)
+
 
 ### Advantages
 - **Simplicity:** Storing data in a local JSON file simplifies both reading and writing operations due to the uncomplicated data structure.

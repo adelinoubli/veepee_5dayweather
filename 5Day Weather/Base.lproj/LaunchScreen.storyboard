@@ -16,18 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5DAY Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXt-Tm-5wJ">
-                                <rect key="frame" x="141" y="415.66666666666669" width="111" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="VM3-aq-wE7">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="lXt-Tm-5wJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CLW-Mv-UgU"/>
-                            <constraint firstItem="lXt-Tm-5wJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TbL-7s-Ovk"/>
+                            <constraint firstItem="VM3-aq-wE7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="W3W-Kw-8O5"/>
+                            <constraint firstItem="VM3-aq-wE7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a0V-NN-9ay"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VM3-aq-wE7" secondAttribute="trailing" id="oat-Au-mEV"/>
+                            <constraint firstAttribute="bottom" secondItem="VM3-aq-wE7" secondAttribute="bottom" id="pmx-ma-O1s"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +36,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="splashscreen" width="728" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

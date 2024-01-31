@@ -192,8 +192,8 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 }
 
-
 extension WeatherViewController {
+
     private func observeInternetReachability() {
         viewModel?.$isInternetReachable
             .receive(on: DispatchQueue.main)
@@ -201,7 +201,7 @@ extension WeatherViewController {
                 if !isReachable {
                     // No internet connection, handle accordingly
                     if let topViewController = UIApplication.topViewController(base: self) {
-                        topViewController.showAlert(title: "Offline", message: "No internet connection.")
+                        topViewController.showAlert(title: AlertConstants.offlineTitle, message: AlertConstants.offlineMessage)
                         self?.isOffline = true
                     } else {
                         self?.isOffline = false
